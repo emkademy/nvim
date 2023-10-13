@@ -41,9 +41,6 @@ vim.keymap.set("n", "<leader>7", "<Cmd>7wincmd w<Cr>", { noremap = true, silent 
 vim.keymap.set("n", "<leader>8", "<Cmd>8wincmd w<Cr>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>9", "<Cmd>9wincmd w<Cr>", { noremap = true, silent = true })
 
-map("n", "<", "<<", { noremap = true, silent = true })
-map("n", ">", ">>", { noremap = true, silent = true })
-
 -- Yank
 map("v", "<localleader>y", '"+y', { noremap = true, silent = true })
 map("n", "<localleader>p", '"*p', { noremap = true, silent = true })
