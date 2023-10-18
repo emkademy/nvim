@@ -107,6 +107,11 @@ return {
     },
   },
 
+  -- Project root
+  {
+    "airblade/vim-rooter",
+  },
+
   -- Fix clangd offset encoding
   {
     "neovim/nvim-lspconfig",
