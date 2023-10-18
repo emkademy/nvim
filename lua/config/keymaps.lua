@@ -43,4 +43,4 @@ vim.keymap.set("n", "<leader>9", "<Cmd>9wincmd w<Cr>", { noremap = true, silent 
 
 -- Yank
 map("v", "<localleader>y", '"+y', { noremap = true, silent = true })
-map("n", "<localleader>p", '"*p', { noremap = true, silent = true })
+map("n", "<localleader>p", '"+p', { noremap = true, silent = true })
