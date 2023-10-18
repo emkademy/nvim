@@ -5,10 +5,6 @@
 vim.opt.winbar = "%=%m %f"
 vim.opt.clipboard = ""
 vim.opt.smartindent = false
-vim.opt.autochdir = true
-vim.opt.autochdir = false
-vim.opt.autochdir = true
-vim.opt.autochdir = false
 
 local handle = io.popen("which python")
 local python_executable_path = handle:read("*a")
