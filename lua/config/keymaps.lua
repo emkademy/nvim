@@ -46,12 +46,7 @@ map("v", "<localleader>y", '"+y', { noremap = true, silent = true })
 map("n", "<localleader>p", '"+p', { noremap = true, silent = true })
 
 -- CamelCaseMotion
--- map("n", "w", "<Plug>CamelCaseMotion_w", { silent = true })
--- map("n", "b", "<Plug>CamelCaseMotion_b", { silent = true })
--- map("n", "e", "<Plug>CamelCaseMotion_e", { silent = true })
--- map("n", "ge", "<Plug>CamelCaseMotion_ge", { silent = true })
---
--- vim.keymap.del("s", "w", { silent = true })
--- vim.keymap.del("s", "b", { silent = true })
--- vim.keymap.del("s", "e", { silent = true })
--- vim.keymap.del("s", "ge", { silent = true })
+map("n", "w", "<Plug>CamelCaseMotion_w", { silent = true })
+map("n", "b", "<Plug>CamelCaseMotion_b", { silent = true })
+map("n", "e", "<Plug>CamelCaseMotion_e", { silent = true })
+map("n", "ge", "<Plug>CamelCaseMotion_ge", { silent = true })
