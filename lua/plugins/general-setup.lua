@@ -138,4 +138,10 @@ return {
       -- },
     },
   },
+
+  -- OneDark Color Theme
+  {
+    "olimorris/onedarkpro.nvim",
+    priority = 1000, -- Ensure it loads first
+  },
 }
