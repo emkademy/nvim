@@ -4,7 +4,7 @@
 
 vim.opt.winbar = "%=%m %f"
 vim.opt.clipboard = ""
-vim.opt.smartindent = false
+vim.opt.smartindent = true
 
 local handle = io.popen("which python")
 local python_executable_path = handle:read("*a")
