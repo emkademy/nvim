@@ -6,6 +6,18 @@ return {
       opts.window.mappings = {
         ["l"] = "open",
         ["h"] = "close_node",
+        ["c"] = {
+          "copy",
+          config = {
+            show_path = "relative",
+          },
+        },
+        ["m"] = {
+          "move",
+          config = {
+            show_path = "relative",
+          },
+        },
       }
       opts.filesystem.follow_current_file.enabled = false
       opts.filesystem.follow_current_file.leave_dirs_open = true
