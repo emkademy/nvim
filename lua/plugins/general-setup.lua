@@ -4,17 +4,22 @@ return {
     "williamboman/mason.nvim",
     opts = function(_, opts)
       vim.list_extend(opts.ensure_installed, {
-        "pyright",
         "black",
-        "mypy",
-        "pydocstyle",
-        "ruff",
-
+        "eslint-lsp",
         "json-lsp",
         "lua-language-server",
+        "mypy",
+        "prettier",
+        "prisma-language-server",
+        "pydocstyle",
+        "pyright",
+        "ruff",
+        "rull-lsp",
         "shfmt",
         "stylua",
+        "tailwindcss-language-server",
         "typescript-language-server",
+        "vtsls",
       })
     end,
   },
