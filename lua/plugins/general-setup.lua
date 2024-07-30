@@ -14,7 +14,7 @@ return {
         "pydocstyle",
         "pyright",
         "ruff",
-        "rull-lsp",
+        "ruff-lsp",
         "shfmt",
         "stylua",
         "tailwindcss-language-server",

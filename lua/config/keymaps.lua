@@ -64,3 +64,5 @@ map("v", "ge", "<Plug>CamelCaseMotion_ge", { silent = true, noremap = true })
 --
 vim.keymap.del("n", "<C-l>", { silent = true })
 vim.keymap.del("t", "<C-l>", { silent = true })
+
+-- NodeTree

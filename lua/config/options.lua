@@ -12,4 +12,5 @@ python_executable_path = string.gsub(python_executable_path, "\n", "")
 handle:close()
 
 vim.g.python3_host_prog = python_executable_path
-vim.g.rooter_patterns = { ".git", "Makefile", "pyproject.toml" }
+-- vim.g.rooter_patterns = { ".git", "Makefile", "pyproject.toml" }
+vim.g.root_spec = { "cwd" }
