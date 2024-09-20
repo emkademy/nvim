@@ -65,4 +65,13 @@ map("v", "ge", "<Plug>CamelCaseMotion_ge", { silent = true, noremap = true })
 vim.keymap.del("n", "<C-l>", { silent = true })
 vim.keymap.del("t", "<C-l>", { silent = true })
 
--- NodeTree
+-- Copilot Chat
+map("n", "<C-l>", "<Cmd>CopilotChatOpen<CR>", { silent = true, noremap = true })
+map("n", "<C-S-l>", "<Cmd>CopilotChatClose<CR>", { silent = true, noremap = true })
+map("v", "<C-e>", "<Cmd>CopilotChatExplain<CR>", { silent = true, noremap = true })
+map("v", "<C-r>", "<Cmd>CopilotChatReview<CR>", { silent = true, noremap = true })
+map("v", "<C-f>", "<Cmd>CopilotChatFix<CR>", { silent = true, noremap = true })
+map("v", "<C-o>", "<Cmd>CopilotChatOptimize<CR>", { silent = true, noremap = true })
+map("v", "<C-d>", "<Cmd>CopilotChatDocs<CR>", { silent = true, noremap = true })
+map("v", "<C-t>", "<Cmd>CopilotChatTests<CR>", { silent = true, noremap = true })
+map("v", "<C-t>", "<Cmd>CopilotChatDiagnostic<CR>", { silent = true, noremap = true })
