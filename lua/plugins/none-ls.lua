@@ -39,7 +39,7 @@ return {
           nls.builtins.formatting.stylua,
           nls.builtins.formatting.shfmt,
           nls.builtins.diagnostics.mypy,
-          nls.builtins.diagnostics.ruff,
+          -- nls.builtins.diagnostics.ruff_lsp,
           -- nls.builtins.diagnostics.pyright,
           -- nls.builtins.diagnostics.flake8,
         },
